@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31829.152
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PwdValidatorAPI", "PwdValidatorAPI\PwdValidatorAPI.csproj", "{562AAF86-0430-4B34-AE9D-B7778BF58DE9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PwdValidatorAPI.Tests", "PwdValidatorAPI.Tests\PwdValidatorAPI.Tests.csproj", "{8ED86872-ED61-4862-BC06-FC3C6BF2A428}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{562AAF86-0430-4B34-AE9D-B7778BF58DE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{562AAF86-0430-4B34-AE9D-B7778BF58DE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{562AAF86-0430-4B34-AE9D-B7778BF58DE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{562AAF86-0430-4B34-AE9D-B7778BF58DE9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8ED86872-ED61-4862-BC06-FC3C6BF2A428}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8ED86872-ED61-4862-BC06-FC3C6BF2A428}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8ED86872-ED61-4862-BC06-FC3C6BF2A428}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8ED86872-ED61-4862-BC06-FC3C6BF2A428}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E09FF3A4-EE83-4AD9-B15E-35A6681D68A6}
+	EndGlobalSection
+EndGlobal
