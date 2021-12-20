@@ -22,4 +22,4 @@ URL: https://localhost:44323/api/ValidatePwd ----(Exemplo!)
 
 Caso desejar é possível utilizar a URL que subi na Azure: 
 
-https://localhost:44323/api/ValidatePwd
+https://password-validator.azurewebsites.net/api/ValidatePwd
