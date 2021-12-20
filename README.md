@@ -3,7 +3,7 @@ API para validação de senha
 
 Foi utilizado nesse projeto os principios de MVC para organização do código. 
 Além disso, conceitos de Encapsulamento foram aplicados na API para tornar mais segregada, isolada e flexível possível.
-O código foi desenvolvido em .Net FrameWork 4.7.8.
+O código foi desenvolvido em .Net Framework 4.7.8.
 A API foi publicada em uma conta gratuita dentro do Portal da Azure, trazendo o Serviço para Cloud.
 Foi utilizado o Postman para chamar o endpoint e testar a eficiência do código.
 
