@@ -15,15 +15,22 @@ namespace PwdValidatorAPI.Models
 
             if (functions.lenghtValidator())
             {
-                if (functions.numberValidator())
+                if (functions.blankSpacesValidator())
                 {
-                    if (functions.lowerCaseValidator())
+                    if (functions.numberValidator())
                     {
-                        if (functions.upperCaseValidator())
+                        if (functions.lowerCaseValidator())
                         {
-                            if (functions.specialCharsValidator())
+                            if (functions.upperCaseValidator())
                             {
-                                return functions.duplicatedCharsValidator();
+                                if (functions.specialCharsValidator())
+                                {
+                                    return functions.duplicatedCharsValidator();
+                                }
+                                else
+                                {
+                                    return false;
+                                }
                             }
                             else
                             {
@@ -44,6 +51,7 @@ namespace PwdValidatorAPI.Models
                 {
                     return false;
                 }
+
             }
             else
             {

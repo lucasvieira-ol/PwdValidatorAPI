@@ -16,6 +16,11 @@ namespace PwdValidatorAPI.Models
                 return false;
         }
 
+        public bool blankSpacesValidator()
+        {
+            return !password.Any(i => Char.IsWhiteSpace(i));            
+        }
+
         public bool numberValidator()
         {
             bool result = false;
